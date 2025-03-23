@@ -1,3 +1,5 @@
+#Text Explanation
+
 The linked list activity code's goal is to add and remove nodes from the front of the list. To do this, I used
 what we learned about linked lists in the text provided and what we learned from before about pushing and popping.
 Most of the explanation will be in the video for how the code works. We decided to do a loop that takes in the 
@@ -8,6 +10,8 @@ these types of lists before so it was a fun challenge to research it and figure 
 Speaking of which, the strengths of this type of list is the easy ability to create and delete nodes since it does
 not take a linear O(N) time to create or delete nodes and only takes O(1) time for each action or step. However, its
 weakness is searching as it does have to go through each node and look at the next address to find the value wanted.
+
+#CPP code
 
 ```cpp
 #include <iostream>
