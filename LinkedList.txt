@@ -1,0 +1,10 @@
+The linked list activity code's goal is to add and remove nodes from the front of the list. To do this, I used
+what we learned about linked lists in the text provided and what we learned from before about pushing and popping.
+Most of the explanation will be in the video for how the code works. We decided to do a loop that takes in the 
+amount of nodes that the user would like to create and the amount of nodes that the user would like to delete. This
+activity was interesting and a bit more challenging than the rest because of having to keep track of the different fields
+of each node which are the data field and the next field which has an address of the next node. I hadn't worked with
+these types of lists before so it was a fun challenge to research it and figure out their strengths and weaknesses.
+Speaking of which, the strengths of this type of list is the easy ability to create and delete nodes since it does
+not take a linear O(N) time to create or delete nodes and only takes O(1) time for each action or step. However, its
+weakness is searching as it does have to go through each node and look at the next address to find the value wanted.
